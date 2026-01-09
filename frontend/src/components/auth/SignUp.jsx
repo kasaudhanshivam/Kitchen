@@ -21,7 +21,7 @@ const SignUp = () => {
 
         try {
             setLoading(true);
-            const res = await axios.post("http://localhost:3000/signup", {
+            const res = await axios.post("https://kitchen-4dh4.onrender.com/signup", {
                 email: email,
                 password: password,
                 username: username,
