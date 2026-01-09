@@ -3,7 +3,7 @@ import axios from "axios";
 import { useAuth } from "../../authContext";
 
 import { Stack, Button, Heading } from "@primer/react";
-import "./auth.css";
+import "./Auth.css";
 
 import logo from "../../assets/github-mark-white.svg";
 import { Link } from "react-router-dom";
